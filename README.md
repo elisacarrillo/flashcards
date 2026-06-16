@@ -41,7 +41,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-![]('https://youtu.be/c-puaeGBAwU')
+<video src='https://imgur.com/a/weCr8pO' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 Video uploaded to YT
