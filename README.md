@@ -41,8 +41,9 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='https://imgur.com/a/weCr8pO' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+
+<img src="flashcards/flashcard_demo.gif" />
 <!-- Replace this with whatever GIF tool you used! -->
 Video uploaded to YT converted with GIFrun and uploaded to imgur
 <!-- Recommended tools:
