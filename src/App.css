@@ -1,0 +1,45 @@
+
+.app {
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100vw;
+  justify-items: center;
+}
+.Box {
+  width: 50vw;
+  height: 50vh;
+  
+  justify-content: center;
+  align-content: center;
+  min-height: 40vh;
+  border:solid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  text-align: center;
+  background: pink;
+  
+}
+.FC {
+  width: 20vw;
+  height: 20vh;
+  font-size: 30px;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  align-content: center;
+  justify-self: center;
+  
+}
+
+.holder {
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
