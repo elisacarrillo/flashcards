@@ -41,10 +41,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<video src='https://imgur.com/a/weCr8pO' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/weCr8pO' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-Video uploaded to YT
+Video uploaded to YT converted with GIFrun and uploaded to imgur
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
