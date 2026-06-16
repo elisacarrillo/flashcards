@@ -43,11 +43,13 @@ Here's a walkthrough of implemented required features:
 
 
 
-<img src="flashcards/flashcard_demo.gif" 
+<img src="./flashcard_demo.gif" 
      alt="Animation showing how the flashcard application works" 
      width="600" 
      height="400" 
      loading="lazy" />
+
+If video not loading, ./flashcard_demo.gif
 <!-- Replace this with whatever GIF tool you used! -->
 Video uploaded to YT converted with GIFrun and uploaded to imgur
 <!-- Recommended tools:
