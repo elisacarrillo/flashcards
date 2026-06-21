@@ -6,17 +6,20 @@ function Flashcards({flash}) {
     const [currFC, setCurrFC] = useState(0)
     const [fcGuess, setFcGuess] = useState("")
     const [isSubmitted, setIsSubmitted] = useState(false)
+    const [wasFlipped, setWasFlipped] = useState(false)
     const maxLen = flash.length - 1
     const minLen = 0
     console.log(flash)
     const setFlip = () => {
         setIsFlipped(!isFlipped)
+        setWasFlipped(true)
     }
     const changeFCLeft = () => {
         setIsFlipped(true)
         setCurrFC(currFC-1)
         setFcGuess("")
         setIsSubmitted(false)
+        setWasFlipped(false)
         
         
         
@@ -26,6 +29,7 @@ function Flashcards({flash}) {
         setCurrFC(currFC + 1)
         setFcGuess("")
         setIsSubmitted(false)
+        setWasFlipped(false)
         
         
         
@@ -48,13 +52,13 @@ function Flashcards({flash}) {
                 </div>
             </div>
             <div className="input">
-                <form method="post" onSubmit={handleSubmit}>
+                {(isFlipped && !wasFlipped )? <form method="post" onSubmit={handleSubmit}>
                 <label>
                     Guess Here: <input style={{ borderStyle: "solid", borderColor: isSubmitted && fcGuess != ""? 
                     fcGuess == flash[currFC].answer ? "green" : "red": ""}} value={fcGuess} name="fc-guess" onChange={(e) => {setFcGuess(e.target.value); setIsSubmitted(false);} } />
                 </label>
                 <button type="submit">Submit</button>
-                </form>
+                </form>: <p></p>}
               
 
             </div>

@@ -52,8 +52,9 @@
 .input {
   flex-direction: row;
   display: flex;
-  margin-bottom: 2vh;
+  margin-bottom: 1vh;
   align-items: baseline;
+  height: 5vh;
 
   
 }
