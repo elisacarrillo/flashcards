@@ -5,6 +5,11 @@
   min-height: 100vh;
   min-width: 100vw;
   justify-items: center;
+  
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
 }
 .Box {
   width: 50vw;
@@ -16,8 +21,8 @@
   border:solid;
   align-items: center;
   justify-content: center;
-  margin-top: 10vh;
-  margin-bottom: 10vh;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
   text-align: center;
   background: pink;
   cursor: pointer;
@@ -44,3 +49,15 @@
   flex-direction: column;
 }
 
+.input {
+  flex-direction: row;
+  display: flex;
+  margin-bottom: 2vh;
+  align-items: baseline;
+
+  
+}
+
+.correct {
+  color:green;
+}
