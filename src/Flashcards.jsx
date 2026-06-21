@@ -1,10 +1,10 @@
 import { useState } from "react"
 import "./App.css"
 
-function Flashcards(flash) {
+function Flashcards({flash}) {
     const [isFlipped, setIsFlipped] = useState(true)
     const [currFC, setCurrFC] = useState(0)
-    const maxLen = flash?.flash.length - 1
+    const maxLen = flash.length - 1
     const minLen = 0
     console.log(flash)
     const setFlip = () => {
@@ -20,9 +20,9 @@ function Flashcards(flash) {
     
     return (
         <div className="holder">
-            <div className="Box">
-                <div className="FC">
-                    <p>{isFlipped? flash?.flash[currFC].question : flash?.flash[currFC].answer}</p>
+            <div className="Box"  onClick={setFlip}>
+                <div className="FC" >
+                    <p>{isFlipped? flash[currFC].question : flash[currFC].answer}</p>
                 </div>
             </div>
             <div className="buttons">

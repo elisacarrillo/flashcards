@@ -13,20 +13,20 @@ function App() {
     "answer": "O(n)"
     },
     {
-    "question": "What is the TC of merge sort",
-    "answer": "O(log n)"
+    "question": "What is the TC of accessing an element in s stack",
+    "answer": "O(n)"
     },
     {
-    "question": "What is the TC of bubble sort",
+    "question": "What is the average/worst case TC of bubble sort",
     "answer": "O(n^2)"
     },
     {
-    "question": "What is the TC of quick sort",
-    "answer": "O(n^2)"
+    "question": "What is the average TC of quick sort",
+    "answer": "O(n log n)"
     },
     {
     "question": "What is the TC of merge sort",
-    "answer": "O(log n)"
+    "answer": "O(n log n)"
     },
     {
     "question": "What is the TC of accessing an element in an array",
